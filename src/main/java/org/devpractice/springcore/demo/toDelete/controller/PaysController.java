@@ -1,6 +1,6 @@
-package org.devpractice.springcore.demo.controller;
+package org.devpractice.springcore.demo.toDelete.controller;
 
-import org.devpractice.springcore.demo.service.Process;
+import org.devpractice.springcore.demo.toDelete.controller.service.Process;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.web.bind.annotation.GetMapping;

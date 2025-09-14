@@ -1,7 +1,6 @@
-package org.devpractice.springcore.demo.controller;
+package org.devpractice.springcore.demo.toDelete.controller;
 
-import lombok.AllArgsConstructor;
-import org.devpractice.springcore.demo.service.library.GetBookUseCase;
+import org.devpractice.springcore.demo.toDelete.controller.service.library.GetBookUseCase;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

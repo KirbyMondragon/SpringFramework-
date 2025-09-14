@@ -9,8 +9,6 @@ import org.slf4j.Logger;
 @SpringBootApplication
 public class SpringCoreApplication {
 
-    //private static final Logger log = LoggerFactory.getLogger(SpringCoreApplication);
-
     public static void main(String[] args) {
 
         SpringApplication.run(SpringCoreApplication.class, args);

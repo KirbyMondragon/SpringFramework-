@@ -1,4 +1,4 @@
-package org.devpractice.springcore.demo.service.library;
+package org.devpractice.springcore.demo.toDelete.controller.service.library;
 
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;

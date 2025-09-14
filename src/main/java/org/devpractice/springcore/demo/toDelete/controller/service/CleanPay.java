@@ -1,4 +1,4 @@
-package org.devpractice.springcore.demo.service;
+package org.devpractice.springcore.demo.toDelete.controller.service;
 
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;

@@ -1,6 +1,6 @@
-package org.devpractice.springcore.demo.controller;
+package org.devpractice.springcore.demo.toDelete.controller;
 
-import org.devpractice.springcore.demo.service.university.GetStudentsUseCase;
+import org.devpractice.springcore.demo.toDelete.controller.service.university.GetStudentsUseCase;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
