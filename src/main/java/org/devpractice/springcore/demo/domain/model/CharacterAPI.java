@@ -4,8 +4,8 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 
-import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 
 @Data
 @Builder
@@ -20,7 +20,7 @@ public class CharacterAPI {
     private Origin origin;
     private Location location;
     private String image;
-    private ArrayList<Episode> episode;
+    private List<String> episode;
     private String url;
     private Date created;
 

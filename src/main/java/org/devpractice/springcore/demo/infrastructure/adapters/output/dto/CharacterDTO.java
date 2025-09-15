@@ -6,8 +6,8 @@ import org.devpractice.springcore.demo.domain.model.Episode;
 import org.devpractice.springcore.demo.domain.model.Location;
 import org.devpractice.springcore.demo.domain.model.Origin;
 
-import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
 public record CharacterDTO (
@@ -20,7 +20,7 @@ public record CharacterDTO (
          Origin origin,
          Location location,
          String image,
-         ArrayList<Episode>episode,
+         List<String> episode,
          String url,
          Date created
 ){}
